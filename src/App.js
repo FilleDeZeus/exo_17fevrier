@@ -8,7 +8,6 @@ import {ToDoList} from './components/todolist/todolist.js'
 import {AnimatedButton} from './components/animatedButton/animatedButton.js'
 import {ProductList} from './components/productList/productList.js'
 
-
 export const App = () => {
   
   const tasks = [
@@ -26,7 +25,7 @@ export const App = () => {
       <Timer duration={60} />
       <ToDoList tasks={tasks} />
       <AnimatedButton/>
-      {/* <ProductList/> */}
+      <ProductList/>
     </div>
   )
 }

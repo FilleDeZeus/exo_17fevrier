@@ -1,0 +1,41 @@
+
+{
+    "products": [
+    { 
+        "name": "iPhone 13 Pro Max", 
+        "price": 1299 },
+    { 
+        "name": "Samsung Galaxy S21 Ultra 5G", 
+        "price": 1249 },
+    {   
+        "name": "Sony Alpha 7 III",
+        "price": 1999 },
+    {  
+        "name": "Canon EOS R6",
+        "price": 2399 },
+    {   
+        "name": "iPad Pro 12.9-inch",
+        "price": 1099 },
+    {   
+        "name": "Microsoft Surface Laptop 4", 
+        "price": 1299 },
+    {   
+        "name": "Dell XPS 13", 
+        "price": 1199 },
+    {   
+        "name": "LG OLED TV CX Series", 
+        "price": 1499 },
+    {   
+        "name": "Sony X950H Series LED TV", 
+        "price": 1399 },
+    {   
+        "name": "Bose QuietComfort 35 II", 
+        "price": 349 },
+    {   
+        "name": "Apple AirPods Pro", 
+        "price": 249 },
+    {  
+        "name": "Sony WH-1000XM4", 
+        "price": 349 }
+]
+}
