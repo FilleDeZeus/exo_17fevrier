@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+ ## Exo 1
+- Créer un component Chronomètre qui, grace au useEffect, va afficher un chronomètre qui s'incrémtente automatiquement toute les secondes. Le chronomètre doit etre formaté correctement, c'est à dire que par exemple quand on arrive à 61 secondes, le chronomètre doit afficher 1:01. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Exo 2
+- Créer un component Compteur. Ce component doit avoir un compteur qu'on peut incrémenter au click d'un bouton. À chaque fois que le component est mis à jour, afficher dans la console "Le component a été mis à jour" en utilisant useEffect
 
-## Available Scripts
+## Exo 3
+- Créer un component ProgressBar qui contient une bar de progressuib se remplit en fonction du temps. La barre doit commencer vide et se remplir jusqu'à 100% en 10 secondes. Utilisez le Hook useEffect pour mettre à jour la barre de progression toutes les secondes et useState pour stocker la valeur actuelle de remplissage
 
-In the project directory, you can run:
+## Exo 4
 
-### `npm start`
+- Crér un component Timer qui va afficher un compte à rebours. Utiliser le useEffect pour gèrer les secondes à retirer et useState pour gèrer l'affichage du compte à rebours.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Exo 5
+- Crér un componment ToDoList qui contient une liste de taches qui auront chacunes un titre. Dans ce component se trouve également une bar de recherche qui va permettre de filtrer les taches. Utiliser useEffect pour mettre à jour la liste de taches en fonction de la recherche de l'utilisateur et useState pour stocker les taches et la valeur de recherche.
