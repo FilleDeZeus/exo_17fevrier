@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 
 export const Compteur = () => {
-    const [count, setCount] = useState(0);
+    //etat du compteur initialement à 0
+    const [compteur, setCompteur] = useState(0);
 
-    useEffect(() => {
-        console.log('Le composant a été mis à jour');
-    });
     return (
         <div>
-            <p>Le compteur est à : {count}</p>
-            <button onClick={() => setCount(count + 1)}>Incrémenter</button>
+            {/* valeur du compteur */}
+            <p>Le compteur est à : {compteur}</p>
+            {/* le bouton permet d'incrementer le compteur des que l'on clique dessus */}
+            <button onClick={() => setCompteur(compteur + 1)}>Incrémenter</button>
         </div>
     )
 }

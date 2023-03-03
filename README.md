@@ -14,3 +14,9 @@
 
 ## Exo 5
 - Crér un componment ToDoList qui contient une liste de taches qui auront chacunes un titre. Dans ce component se trouve également une bar de recherche qui va permettre de filtrer les taches. Utiliser useEffect pour mettre à jour la liste de taches en fonction de la recherche de l'utilisateur et useState pour stocker les taches et la valeur de recherche.
+
+## Exo 6
+- Créer un component AnimatedButton qui contient un boutom. Lorsqu'on clique sur le bouton il va faire apparaitre un carré qui va clignoter toutes les secondes. Lorsqu'on rappuie dessus le carré disparait. Utiliser useState pour gèrer l'état d'affichage du carré et useEffect pour lancer/arreter l'animation
+
+## Exo 7 
+- Créer un component ProductList qui va afficher des produits venant d'un .JSON. Utiliser useState pour l'affichage des produits et useEffect pour charger les produits au moment du montage. Les données sont charger qu'une fois.

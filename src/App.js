@@ -5,6 +5,8 @@ import {Compteur} from './components/compteur/compteur.js'
 import {ProgressBar} from './components/progressBar/progressBar.js'
 import {Timer} from './components/timer/timer.js'
 import {ToDoList} from './components/todolist/todolist.js'
+import {AnimatedButton} from './components/animatedButton/animatedButton.js'
+import {ProductList} from './components/productList/productList.js'
 
 
 export const App = () => {
@@ -23,7 +25,8 @@ export const App = () => {
       <ProgressBar/>
       <Timer duration={60} />
       <ToDoList tasks={tasks} />
-  
+      <AnimatedButton/>
+      {/* <ProductList/> */}
     </div>
   )
 }

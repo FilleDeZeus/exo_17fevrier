@@ -29,7 +29,7 @@ export const ToDoList = ({ tasks }) => {
             {/* appelle la fonction lorsqu'elle change */}
             <input type="text"  value={cherche} onChange={handleCherche} /> 
             <ul>
-            // Affichage de la liste des tâches filtré ou non
+            {/* Affichage de la liste des tâches filtré ou non */}
                 {filtre.map((task) => (
                 <li key={task.id}>{task.title}</li>
                 ))}
