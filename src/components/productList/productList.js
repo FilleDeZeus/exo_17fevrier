@@ -8,6 +8,7 @@ export const ProductList = () => {
     <div>
       <h1>Liste des produits</h1>
       <ul>
+        {/* permet de un li pour chaque element dans le liste de produit */}
         {productList.products.map((product, index) => (
           <li key={index}>
             <p>{product.name}</p>
